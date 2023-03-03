@@ -4,7 +4,7 @@
     background: #050816;
 }
 
-.app__nav {
+.app__top {
     background-image: url('/src/assets/herobg.png');
     background-size: cover;
     background-repeat: no-repeat;

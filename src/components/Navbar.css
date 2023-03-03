@@ -1,0 +1,102 @@
+.app__nav {
+    padding: 1rem 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background: #050816;
+}
+
+.app__nav-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.app__nav-home {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.app__nav-logo {
+    height: 2rem;
+    object-fit: cover;
+}
+
+.app__nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.app__nav-links li.active a {
+    color: white;
+}
+
+.app__nav-links li a {
+    text-decoration: none;
+    color: #aaa6c3;
+    font-size: 17px;
+    transition: .2s;
+}
+
+.app__nav-links li:hover a {
+    color: white;
+}
+
+.app__nav-links-small,
+.app__nav-links.small {
+    display: none;
+}
+
+.app__nav-links.small {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    padding: .25rem .5rem;
+    border-radius: 8px;
+    background: #000000;
+    background-image: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    );
+    z-index: 10;
+}
+
+@media screen and (width <= 700px) {
+    .app__nav {
+        padding: .5rem 1.5rem;
+    }
+
+    .app__nav-links {
+        display: none;
+    }
+
+    .app__nav-links-small,
+    .app__nav-links.small {
+        display: flex;
+    }
+
+    .app__nav-links.small {
+        right: 1.5rem;
+    }
+
+    .app__nav-links-small img {
+        width: 26px;
+        height: 26px;
+        object-fit: contain;
+        cursor: pointer;
+    }
+}
