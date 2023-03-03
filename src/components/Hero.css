@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .app__hero-decoration {
@@ -52,9 +52,36 @@
 }
 
 .app__main-text p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 18px;
     color: #aaa6c3;
+}
+
+.app__hero-bottom {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__hero-scroll {
+    width: 30px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app__hero-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
 }
 
 @media screen and (width <= 1000px) {

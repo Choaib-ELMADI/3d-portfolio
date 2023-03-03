@@ -20,6 +20,24 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
+
+      <div className="app__hero-bottom">
+        <a href="#about">
+          <div className='app__hero-scroll'>
+            <motion.div
+              animate={{
+                y: [0, 35, 0]
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: 'loop'
+              }}
+              className="app__hero-dot"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   )
 }
