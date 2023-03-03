@@ -1,4 +1,8 @@
-import logo from "./logo.svg";
+import logowhite from "./logo-white.svg";
+import logoblack from "./logo-black.svg";
+import logotransparent from "./logo-no-background.svg";
+import logocolor from "./logo-color.svg";
+import favicon from "./favicon.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,7 +35,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
+  logowhite,
+  logoblack,
+  logotransparent,
+  logocolor,
+  favicon,
   backend,
   creator,
   mobile,
