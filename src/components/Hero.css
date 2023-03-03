@@ -1,0 +1,70 @@
+.app__hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.app__hero-text {
+    padding: 0 3rem;
+    position: absolute;
+    inset: 0;
+    top: 100px;
+    max-width: 2000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.app__hero-decoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__hero-deco-circle {
+    width: .75rem;
+    height: .75rem;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.app__hero-deco-line {
+    width: .25rem;
+    height: 12rem;
+    background: orangered;
+    background: linear-gradient(
+        to bottom,
+        orangered 0%,
+        rgba(60, 51, 80, 0) 100%
+      );
+}
+
+.app__main-text {
+    font-size: 22px;
+}
+
+.app__main-text span {
+    color: orangered;
+}
+
+.app__main-text p {
+    margin-top: 1.5rem;
+    font-size: 18px;
+    color: #aaa6c3;
+}
+
+@media screen and (width <= 1000px) {
+    .app__main-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (width <= 700px) {
+    .app__hero-text {
+        padding: 0 1.5rem;
+    }
+}
