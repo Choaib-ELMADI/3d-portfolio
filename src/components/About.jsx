@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
+import { SectionWrapper } from '../hoc/index'
+
 import './About.css'
 
 const ServiceCard = ({ index, title, icon }) => {
@@ -63,4 +65,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")
