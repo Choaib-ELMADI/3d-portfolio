@@ -67,6 +67,10 @@
     }
 
     .app__service-card {
-        width: 200px;
+        width: 220px;
+    }
+
+    .app__about-intro h1 {
+        font-size: 30px;
     }
 }

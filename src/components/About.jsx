@@ -37,6 +37,9 @@ const About = () => {
       <motion.div 
         variants={ textVariant() }
         className='app__about-intro'
+        style={{
+          marginTop: '3rem'
+        }}
       >
         <p>Introduction</p>
         <h1>Overview.</h1>

@@ -1,0 +1,11 @@
+.app__timeline {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__timeline-title {
+    color: white;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+}
