@@ -1,0 +1,13 @@
+.app__wrap-section {
+    padding: 0 3rem;
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (width <= 700px) {
+    .app__wrap-section {
+        padding: 0 1.5rem;
+    }
+}
