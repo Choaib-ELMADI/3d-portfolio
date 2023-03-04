@@ -1,0 +1,12 @@
+.app__techs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.app__tech {
+    width: 70px;
+    height: 70px;
+}
