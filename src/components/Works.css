@@ -1,0 +1,88 @@
+.app__project-cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+}
+
+.app__project-card {
+    width: 250px;
+}
+
+.app__project-card-inner {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+
+.app__project-card-inner > div {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.app__project-card-inner > div img {
+    width: 100%;
+    height: 180px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.app__project-card-info {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: .5rem;
+}
+
+.app__project-card-info > div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.app__project-card-info > div img {
+    width: 80%;
+    height: 80%;
+}
+
+.app__project-desc {
+    padding: .5rem;
+}
+
+.app__project-desc h3 {
+    font-size: 18px;
+    width: 100%;
+}
+
+.app__project-desc p {
+    margin-top: .5rem;
+    font-size: 14px;
+    color: #aaa6c3;
+    line-height: 20px;
+}
+
+.app__project-tags {
+    padding: .5rem;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.app__project-tags p {
+    font-size: 14px;
+}

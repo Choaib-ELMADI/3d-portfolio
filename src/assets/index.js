@@ -26,9 +26,10 @@ import threejs from "./tech/threejs.svg";
 import fiverr from "./company/fiverr.png";
 import selfemployed from "./company/selfemployed.png";;
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aitmgoun from "./aitmgoun.png";
+import get3d from "./get3d.png";
+import moroccanfood from "./moroccanfood.png";
+import arduno from "./arduno.png";
 
 export {
   logowhite,
@@ -59,7 +60,8 @@ export {
   fiverr,
   selfemployed,
 
-  carrent,
-  jobit,
-  tripguide,
+  aitmgoun,
+  moroccanfood,
+  get3d,
+  arduno,
 };

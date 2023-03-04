@@ -15,10 +15,12 @@ import {
     fiverr,
     selfemployed,
 
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+
+    arduno,
+    get3d,
+    aitmgoun,
+    moroccanfood,
   } from "../assets";
   
   export const navLinks = [
@@ -131,7 +133,7 @@ import {
       date: "Nov 2022 - Present",
       points: [
         "Providing freelancing services in the web development field.",
-        "Providing freelancing services in the 3d modeling field.",
+        "Providing freelancing services in 3d modeling.",
         "Providing freelancing services in robotics and electronics.",
       ],
     },
@@ -166,66 +168,90 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Arduino",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search for arduino projects, and try making them.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "blue",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "arduino",
+          color: "orangered",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "greenyellow",
         },
       ],
-      image: tripguide,
+      image: arduno,
+      source_code_link: "https://github.com/",
+    },
+
+    {
+      name: "3D Models",
+      description:
+        "Web application that enables users to search for 3d models, 2d drawings and assemblies.",
+      tags: [
+        {
+          name: "react",
+          color: "blue",
+        },
+        {
+          name: "solidworks",
+          color: "pink",
+        },
+        {
+          name: "blender",
+          color: "#ccc",
+        },
+      ],
+      image: get3d,
+      source_code_link: "https://github.com/",
+    },
+
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book and rental houses.",
+      tags: [
+        {
+          name: "javascript",
+          color: "yellow",
+        },
+        {
+          name: "html",
+          color: "orangered",
+        },
+        {
+          name: "css",
+          color: "greenyellow",
+        },
+      ],
+      image: aitmgoun,
+      source_code_link: "https://github.com/",
+    },
+
+    {
+      name: "Moroccan Resto",
+      description:
+        "A comprehensive restaurant website platform that allows users to search and browse moroccan food.",
+      tags: [
+        {
+          name: "react",
+          color: "blue",
+        },
+        {
+          name: "css",
+          color: "greenyellow",
+        },
+        {
+          name: "sass",
+          color: "pink",
+        },
+      ],
+      image: moroccanfood,
       source_code_link: "https://github.com/",
     },
   ];
