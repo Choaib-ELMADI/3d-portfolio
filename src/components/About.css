@@ -1,0 +1,68 @@
+.app__about-intro p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #aaa6c3;
+}
+
+.app__about-intro h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.app__about-text {
+    margin-top: 1rem;
+    color: #aaa6c3;
+    font-size: 17px;
+    line-height: 30px;
+    max-width: 1200px;
+}
+
+.app__about-cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+}
+
+.app__service-card {
+    width: 240px;
+}
+
+.app__service-card-inner {
+    width: 100%;
+    background: "#00cea8";
+    background: linear-gradient(
+        90.13deg, 
+        #00cea8 1.9%, 
+        #bf61ff 97.5%
+    );
+    padding: .1rem;
+    border-radius: 12px;
+}
+
+.app__service-card-inner > div {
+    background: black;
+    border-radius: 12px;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__service-card-inner > div img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.app__service-card-inner > div h3 {
+    text-align: center;
+}
+
+@media screen and (width <= 700px) {
+    .app__service-card {
+        width: 200px;
+    }
+}
