@@ -62,6 +62,10 @@
 }
 
 @media screen and (width <= 700px) {
+    .app__about-cards {
+        justify-content: center;
+    }
+
     .app__service-card {
         width: 200px;
     }
