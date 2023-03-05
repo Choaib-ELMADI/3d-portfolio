@@ -236,7 +236,7 @@ import {
     {
       name: "Moroccan Resto",
       description:
-        "A comprehensive restaurant website platform that allows users to search and browse moroccan food.",
+        "A comprehensive restaurant website platform that allows users to find moroccan food.",
       tags: [
         {
           name: "react",

@@ -28,11 +28,13 @@
 }
 
 .app__project-card-inner > div img {
-    width: 100%;
+    width: calc(100% - 1rem);
+    margin: auto;
     height: 180px;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 12px;
+    margin: .5rem;
 }
 
 .app__project-card-info {
@@ -40,14 +42,14 @@
     inset: 0;
     display: flex;
     justify-content: flex-end;
-    margin: .5rem;
+    margin: .75rem;
 }
 
 .app__project-card-info > div {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background: black;
+    background: #090325;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,10 +59,12 @@
 .app__project-card-info > div img {
     width: 80%;
     height: 80%;
+    margin: auto;
 }
 
 .app__project-desc {
     padding: .5rem;
+    padding-top: 0;
 }
 
 .app__project-desc h3 {
