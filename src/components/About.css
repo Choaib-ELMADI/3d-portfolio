@@ -14,7 +14,7 @@
     color: #aaa6c3;
     font-size: 17px;
     line-height: 30px;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 .app__about-cards {
@@ -62,10 +62,6 @@
 }
 
 @media screen and (width <= 700px) {
-    .app__about-cards {
-        justify-content: center;
-    }
-
     .app__service-card {
         width: 220px;
     }
