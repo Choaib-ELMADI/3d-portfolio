@@ -17,11 +17,44 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_rbyqrrj', 
+      'template_z4t83ye',
+      {
+        from_name: form.name,
+        to_name: 'Choaib',
+        from_email: form.email,
+        to_email: 'choaibelmadi.js@gmail.com',
+        message: form.message,
+      },
+      'BzsAxBDR2VcTFgclc',
+    ).then(() => {
+      setLoading(false);
+      alert("Thank You! I will get back to you as soon as possible.");
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      });
+    }, (error) => {
+      setLoading(false);
+      console.log(error);
+      alert("Something went wrong.")
+    });
+  };
 
   return (
-    <div className='app__contact'>
+    <div className='app__contact' style={{
+      paddingBottom: '6rem'
+    }}>
       <motion.div
         variants={ slideIn("left", "tween", 0.2, 1 ) }
         className='app__contact-form'
