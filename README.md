@@ -8,4 +8,5 @@
 <img src='demos/large.png' />
 
 <img src='demos/small.png' width='250' />
+<img src='demos/small-device.png' width='250' />
 <h2>It's showen here because this is just google device bar.</h2>
